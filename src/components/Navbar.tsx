@@ -109,15 +109,15 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       <div className={cn(
-        "fixed inset-0 bg-white dark:bg-zinc-950 z-40 md:hidden transition-all duration-500 ease-in-out transform",
+        "fixed inset-0 bg-white dark:bg-zinc-950 z-40 md:hidden transition-all duration-500 ease-in-out transform backdrop-blur-lg",
         isOpen ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0"
       )}>
-        <div className="flex flex-col items-center justify-center h-full gap-12 p-6">
+        <div className="flex flex-col items-center justify-center h-full gap-8 p-6">
           {navLinks.map((link) => (
             <Link
               key={link.path}
               to={link.path}
-              className="text-3xl font-black uppercase tracking-[0.3em] text-zinc-900 dark:text-white hover:text-purple-600 transition-colors"
+              className="text-xl sm:text-2xl font-bold uppercase tracking-widest text-zinc-900 dark:text-white hover:text-purple-600 transition-colors text-center"
               onClick={() => setIsOpen(false)}
             >
               {link.name}
@@ -125,7 +125,7 @@ export default function Navbar() {
           ))}
           <Link
             to="/contact"
-            className="bg-purple-600 text-white px-12 py-5 rounded-full text-xl font-black uppercase tracking-widest shadow-2xl shadow-purple-600/20"
+            className="bg-gradient-to-r from-purple-600 to-purple-800 text-white px-8 py-3.5 rounded-full text-base font-bold uppercase tracking-wider shadow-lg shadow-purple-600/20 mt-4 flex items-center gap-2 group mx-auto"
             onClick={() => setIsOpen(false)}
           >
             Get Guest Post
