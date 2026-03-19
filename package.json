@@ -7,9 +7,10 @@
     "dev": "tsx server.ts",
     "start": "node server.ts",
     "build": "vite build",
-    "preview": "vite preview",
+    "preview": "npm run build && wrangler dev",
     "clean": "rm -rf dist",
-    "lint": "tsc --noEmit"
+    "lint": "tsc --noEmit",
+    "deploy": "npm run build && wrangler deploy"
   },
   "dependencies": {
     "@google/genai": "^1.29.0",
@@ -33,5 +34,8 @@
     "typescript": "~5.8.2",
     "vite": "^6.2.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.29.1",
+    "wrangler": "^4.75.0"
+  }
 }
