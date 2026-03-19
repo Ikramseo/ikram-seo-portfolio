@@ -29,15 +29,15 @@ export default function Navbar() {
   return (
     <nav className={cn(
       "fixed top-0 left-0 right-0 z-50 transition-all duration-300 px-6 py-5",
-      scrolled 
-        ? "bg-white/80 dark:bg-zinc-950/80 backdrop-blur-md border-b border-zinc-200 dark:border-zinc-800 py-4 shadow-sm" 
+      scrolled
+        ? "bg-white/80 dark:bg-zinc-950/80 backdrop-blur-md border-b border-zinc-200 dark:border-zinc-800 py-4 shadow-sm"
         : "bg-transparent"
     )}>
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <Link to="/" className="flex items-center gap-3 group">
-          <img 
-            src={ikramLogo} 
-            alt="Ikram Khan SEO" 
+          <img
+            src={ikramLogo}
+            alt="Ikram Khan SEO"
             className="h-10 w-auto object-contain"
             referrerPolicy="no-referrer"
           />
@@ -57,7 +57,7 @@ export default function Navbar() {
                 className={cn(
                   "text-[15px] font-medium transition-colors",
                   location.pathname === link.path || (link.path === '/#faq' && location.pathname === '/' && location.hash === '#faq')
-                    ? "text-purple-600 font-semibold" 
+                    ? "text-purple-600 font-semibold"
                     : "text-zinc-600 dark:text-zinc-400 hover:text-purple-600"
                 )}
               >
@@ -79,7 +79,7 @@ export default function Navbar() {
             >
               {theme === 'light' ? <Moon size={18} /> : <Sun size={18} />}
             </button>
-            <Link 
+            <Link
               to="/contact"
               className="bg-gradient-to-r from-purple-600 to-purple-800 text-white px-7 py-2.5 rounded-full text-sm font-semibold hover:scale-105 transition-all shadow-lg shadow-purple-600/20 flex items-center gap-2 group"
             >
@@ -107,17 +107,38 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* Mobile Menu */}
+      {/* Mobile Menu Backdrop */}
+      <div
+        className={cn(
+          "fixed inset-0 bg-black/60 z-40 md:hidden transition-opacity duration-300 backdrop-blur-[2px]",
+          isOpen ? "opacity-100" : "opacity-0 pointer-events-none"
+        )}
+        onClick={() => setIsOpen(false)}
+      />
+
+      {/* Mobile Menu Dropdown Panel */}
       <div className={cn(
-        "fixed inset-0 bg-white dark:bg-zinc-950 z-40 md:hidden transition-all duration-500 ease-in-out transform backdrop-blur-lg",
-        isOpen ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0"
+        "fixed top-0 left-0 right-0 bg-[#0a0a0b] z-50 md:hidden transition-transform duration-300 ease-in-out transform rounded-b-[2rem] shadow-2xl overflow-hidden border-b border-zinc-800/50",
+        isOpen ? "translate-y-0" : "-translate-y-full"
       )}>
-        <div className="flex flex-col items-center justify-center h-full gap-8 p-6">
+        <div className="flex justify-between items-center px-6 py-6">
+          <Link to="/" className="flex flex-col" onClick={() => setIsOpen(false)}>
+            <span className="text-xl font-bold tracking-tight text-white leading-none">Ikram Khan SEO</span>
+          </Link>
+          <button
+            className="text-zinc-400 hover:text-white p-1 transition-colors"
+            onClick={() => setIsOpen(false)}
+          >
+            <X size={26} />
+          </button>
+        </div>
+
+        <div className="flex flex-col gap-6 px-8 pt-2 pb-10">
           {navLinks.map((link) => (
             <Link
               key={link.path}
               to={link.path}
-              className="text-xl sm:text-2xl font-bold uppercase tracking-widest text-zinc-900 dark:text-white hover:text-purple-600 transition-colors text-center"
+              className="text-zinc-300 hover:text-white text-[17px] font-medium transition-colors"
               onClick={() => setIsOpen(false)}
             >
               {link.name}
@@ -125,7 +146,7 @@ export default function Navbar() {
           ))}
           <Link
             to="/contact"
-            className="bg-gradient-to-r from-purple-600 to-purple-800 text-white px-8 py-3.5 rounded-full text-base font-bold uppercase tracking-wider shadow-lg shadow-purple-600/20 mt-4 flex items-center gap-2 group mx-auto"
+            className="w-full bg-white text-zinc-950 mt-2 py-3.5 rounded-xl text-[16px] font-bold flex justify-center items-center hover:bg-zinc-200 transition-colors shadow-md"
             onClick={() => setIsOpen(false)}
           >
             Get Guest Post
