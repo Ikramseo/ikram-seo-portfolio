@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "website": "apnews.com",
+    "niche": "News",
+    "da": 94,
+    "dr": 91,
+    "traffic": "27.8M",
+    "linkType": "Press Release",
+    "price": 130
+  },
+  {
+    "id": 2,
+    "website": "usatoday.com",
+    "niche": "News",
+    "da": 92,
+    "dr": 92,
+    "traffic": "26M",
+    "linkType": "Press Release",
+    "price": 300
+  },
+  {
+    "id": 3,
+    "website": "techtimes.com",
+    "niche": "Technology",
+    "da": 83,
+    "dr": 80,
+    "traffic": "500K",
+    "linkType": "DoFollow",
+    "price": 1600
+  },
+  {
+    "id": 4,
+    "website": "msn.com",
+    "niche": "News",
+    "da": 71,
+    "dr": 92,
+    "traffic": "132M",
+    "linkType": "Editorial",
+    "price": 200
+  },
+  {
+    "id": 5,
+    "website": "centurylink.net",
+    "niche": "Technology",
+    "da": 48,
+    "dr": 59,
+    "traffic": "2.7M",
+    "linkType": "Press Release",
+    "price": 70
+  },
+  {
+    "id": 6,
+    "website": "openpr.com",
+    "niche": "Business",
+    "da": 66,
+    "dr": 80,
+    "traffic": "200K",
+    "linkType": "Press Release",
+    "price": 30
+  },
+  {
+    "id": 7,
+    "website": "bignewsnetwork.com",
+    "niche": "News",
+    "da": 80,
+    "dr": 76,
+    "traffic": "600K+",
+    "linkType": "Press Release",
+    "price": 25
+  },
+  {
+    "id": 8,
+    "website": "digitaljournal.com",
+    "niche": "News",
+    "da": 57,
+    "dr": 83,
+    "traffic": "400K+",
+    "linkType": "Press Release",
+    "price": 30
+  },
+  {
+    "id": 9,
+    "website": "usawire.com",
+    "niche": "Business",
+    "da": 74,
+    "dr": 70,
+    "traffic": "10K",
+    "linkType": "Editorial",
+    "price": 40
+  },
+  {
+    "id": 10,
+    "website": "dailytrust.com",
+    "niche": "News",
+    "da": 93,
+    "dr": 73,
+    "traffic": "600K",
+    "linkType": "Editorial",
+    "price": 150
+  },
+  {
+    "id": 11,
+    "website": "finance.yahoo.com",
+    "niche": "Finance",
+    "da": 94,
+    "dr": 92,
+    "traffic": "53.6M",
+    "linkType": "Press Release",
+    "price": 400
+  },
+  {
+    "id": 12,
+    "website": "markets.businessinsider.com",
+    "niche": "Finance",
+    "da": 91,
+    "dr": 92,
+    "traffic": "32.5M",
+    "linkType": "Press Release",
+    "price": 300
+  },
+  {
+    "id": 13,
+    "website": "outlookindia.com",
+    "niche": "News",
+    "da": 86,
+    "dr": 89,
+    "traffic": "6.2M",
+    "linkType": "DoFollow",
+    "price": 600
+  },
+  {
+    "id": 14,
+    "website": "khaleejtimes.com",
+    "niche": "News",
+    "da": 92,
+    "dr": 83,
+    "traffic": "1.8M",
+    "linkType": "DoFollow",
+    "price": 700
+  },
+  {
+    "id": 15,
+    "website": "theglobeandmail.com",
+    "niche": "News",
+    "da": 69,
+    "dr": 90,
+    "traffic": "3.5M",
+    "linkType": "Press Release",
+    "price": 120
+  },
+  {
+    "id": 16,
+    "website": "analyticsinsight.net",
+    "niche": "Technology",
+    "da": 82,
+    "dr": 81,
+    "traffic": "250K",
+    "linkType": "DoFollow",
+    "price": 250
+  },
+  {
+    "id": 17,
+    "website": "goodmenproject.com",
+    "niche": "Lifestyle",
+    "da": 75,
+    "dr": 79,
+    "traffic": "92K",
+    "linkType": "DoFollow",
+    "price": 150
+  },
+  {
+    "id": 18,
+    "website": "ceoweekly.com",
+    "niche": "Business",
+    "da": 57,
+    "dr": 60,
+    "traffic": "50K",
+    "linkType": "DoFollow",
+    "price": 250
+  },
+  {
+    "id": 19,
+    "website": "nyweekly.com",
+    "niche": "News",
+    "da": 82,
+    "dr": 74,
+    "traffic": "34K",
+    "linkType": "Editorial",
+    "price": 120
+  },
+  {
+    "id": 20,
+    "website": "asiaone.com",
+    "niche": "News",
+    "da": 85,
+    "dr": 80,
+    "traffic": "514K",
+    "linkType": "DoFollow",
+    "price": 200
+  },
+  {
+    "id": 21,
+    "website": "newsmax.com",
+    "niche": "News",
+    "da": 71,
+    "dr": 82,
+    "traffic": "710K",
+    "linkType": "DoFollow",
+    "price": 350
+  },
+  {
+    "id": 22,
+    "website": "marketbusinessnews.com",
+    "niche": "Business",
+    "da": 83,
+    "dr": 77,
+    "traffic": "208K",
+    "linkType": "DoFollow",
+    "price": 180
+  },
+  {
+    "id": 23,
+    "website": "streetinsider.com",
+    "niche": "Finance",
+    "da": 82,
+    "dr": 80,
+    "traffic": "61K",
+    "linkType": "Press Release",
+    "price": 70
+  },
+  {
+    "id": 24,
+    "website": "ipsnews.net",
+    "niche": "News",
+    "da": 55,
+    "dr": 80,
+    "traffic": "63.2K",
+    "linkType": "Press Release",
+    "price": 50
+  },
+  {
+    "id": 25,
+    "website": "urbanmatter.com",
+    "niche": "Lifestyle",
+    "da": 62,
+    "dr": 74,
+    "traffic": "47.2K",
+    "linkType": "DoFollow",
+    "price": 120
+  },
+  {
+    "id": 26,
+    "website": "businesstomark.com",
+    "niche": "Business",
+    "da": 65,
+    "dr": 57,
+    "traffic": "50K",
+    "linkType": "DoFollow",
+    "price": 40
+  },
+  {
+    "id": 27,
+    "website": "forbesblog.org",
+    "niche": "Business",
+    "da": 65,
+    "dr": 62,
+    "traffic": "170K",
+    "linkType": "DoFollow",
+    "price": 150
+  },
+  {
+    "id": 28,
+    "website": "azbigmedia.com",
+    "niche": "Business",
+    "da": 61,
+    "dr": 78,
+    "traffic": "36.1K",
+    "linkType": "DoFollow",
+    "price": 180
+  },
+  {
+    "id": 29,
+    "website": "barchart.com",
+    "niche": "Finance",
+    "da": 94,
+    "dr": 79,
+    "traffic": "2.1M",
+    "linkType": "Press Release",
+    "price": 100
+  },
+  {
+    "id": 30,
+    "website": "bitcoinist.com",
+    "niche": "Crypto",
+    "da": 80,
+    "dr": 82,
+    "traffic": "150K",
+    "linkType": "DoFollow",
+    "price": 1500
+  },
+  {
+    "id": 31,
+    "website": "binance.com",
+    "niche": "Crypto",
+    "da": 92,
+    "dr": 90,
+    "traffic": "50M",
+    "linkType": "DoFollow",
+    "price": 400
+  },
+  {
+    "id": 32,
+    "website": "investing.com",
+    "niche": "Finance",
+    "da": 91,
+    "dr": 92,
+    "traffic": "100M",
+    "linkType": "DoFollow",
+    "price": 450
+  },
+  {
+    "id": 33,
+    "website": "jpost.com",
+    "niche": "News",
+    "da": 91,
+    "dr": 86,
+    "traffic": "1.5M",
+    "linkType": "DoFollow",
+    "price": 1000
+  },
+  {
+    "id": 34,
+    "website": "nl.mashable.com",
+    "niche": "Technology",
+    "da": 93,
+    "dr": 91,
+    "traffic": "7.1K",
+    "linkType": "DoFollow",
+    "price": 550
+  },
+  {
+    "id": 35,
+    "website": "forbesindia.com",
+    "niche": "Business",
+    "da": 82,
+    "dr": 81,
+    "traffic": "432K",
+    "linkType": "DoFollow",
+    "price": 280
+  },
+  {
+    "id": 36,
+    "website": "technology.org",
+    "niche": "Technology",
+    "da": 61,
+    "dr": 73,
+    "traffic": "97K",
+    "linkType": "DoFollow",
+    "price": 350
+  },
+  {
+    "id": 37,
+    "website": "londonlovesbusiness.com",
+    "niche": "Business",
+    "da": 61,
+    "dr": 71,
+    "traffic": "6.8K",
+    "linkType": "DoFollow",
+    "price": 280
+  },
+  {
+    "id": 38,
+    "website": "abcmoney.co.uk",
+    "niche": "Finance",
+    "da": 70,
+    "dr": 60,
+    "traffic": "827",
+    "linkType": "DoFollow",
+    "price": 220
+  },
+  {
+    "id": 39,
+    "website": "metapress.com",
+    "niche": "News",
+    "da": 76,
+    "dr": 80,
+    "traffic": "7.1K",
+    "linkType": "DoFollow",
+    "price": 150
+  },
+  {
+    "id": 40,
+    "website": "Benzinga.com",
+    "niche": "Finance",
+    "da": 88,
+    "dr": 86,
+    "traffic": "1.4M",
+    "linkType": "DoFollow",
+    "price": 120
+  },
+  {
+    "id": 41,
+    "website": "forbes.com.mx",
+    "niche": "Business",
+    "da": 85,
+    "dr": 88,
+    "traffic": "2.5M",
+    "linkType": "Premium",
+    "price": 5000
+  },
+  {
+    "id": 42,
+    "website": "Under30ceo.com",
+    "niche": "Business",
+    "da": 72,
+    "dr": 75,
+    "traffic": "150K",
+    "linkType": "DoFollow",
+    "price": 850
+  },
+  {
+    "id": 43,
+    "website": "Tradingview.com",
+    "niche": "Finance",
+    "da": 94,
+    "dr": 92,
+    "traffic": "200M",
+    "linkType": "DoFollow",
+    "price": 700
+  },
+  {
+    "id": 44,
+    "website": "Morningstar.com",
+    "niche": "Finance",
+    "da": 92,
+    "dr": 91,
+    "traffic": "15M",
+    "linkType": "DoFollow",
+    "price": 600
+  },
+  {
+    "id": 45,
+    "website": "livemint.com",
+    "niche": "News",
+    "da": 91,
+    "dr": 89,
+    "traffic": "45M",
+    "linkType": "DoFollow",
+    "price": 700
+  },
+  {
+    "id": 46,
+    "website": "gulfnews.com",
+    "niche": "News",
+    "da": 90,
+    "dr": 88,
+    "traffic": "12M",
+    "linkType": "DoFollow",
+    "price": 1500
+  },
+  {
+    "id": 47,
+    "website": "Pulse.ng",
+    "niche": "News",
+    "da": 84,
+    "dr": 82,
+    "traffic": "8M",
+    "linkType": "DoFollow",
+    "price": 850
+  },
+  {
+    "id": 48,
+    "website": "deccanherald.com",
+    "niche": "News",
+    "da": 88,
+    "dr": 85,
+    "traffic": "10M",
+    "linkType": "DoFollow",
+    "price": 300
+  },
+  {
+    "id": 49,
+    "website": "mid-day.com",
+    "niche": "News",
+    "da": 86,
+    "dr": 84,
+    "traffic": "15M",
+    "linkType": "DoFollow",
+    "price": 250
+  },
+  {
+    "id": 50,
+    "website": "thedailyguardian.com",
+    "niche": "News",
+    "da": 75,
+    "dr": 72,
+    "traffic": "1.2M",
+    "linkType": "DoFollow",
+    "price": 450
+  },
+  {
+    "id": 51,
+    "website": "Ceo.ca",
+    "niche": "Business",
+    "da": 62,
+    "dr": 65,
+    "traffic": "500K",
+    "linkType": "DoFollow",
+    "price": 450
+  },
+  {
+    "id": 52,
+    "website": "Fox59.com",
+    "niche": "News",
+    "da": 82,
+    "dr": 80,
+    "traffic": "4M",
+    "linkType": "DoFollow",
+    "price": 600
+  },
+  {
+    "id": 53,
+    "website": "ManilaTimes.net",
+    "niche": "News",
+    "da": 84,
+    "dr": 82,
+    "traffic": "3M",
+    "linkType": "DoFollow",
+    "price": 250
+  },
+  {
+    "id": 54,
+    "website": "globalhealthcaremagazine.com",
+    "niche": "Health",
+    "da": 55,
+    "dr": 58,
+    "traffic": "25K",
+    "linkType": "DoFollow",
+    "price": 300
+  },
+  {
+    "id": 55,
+    "website": "thefoxmagazine.com",
+    "niche": "Lifestyle",
+    "da": 58,
+    "dr": 60,
+    "traffic": "45K",
+    "linkType": "DoFollow",
+    "price": 300
+  },
+  {
+    "id": 56,
+    "website": "Bmmagazine.co.uk",
+    "niche": "Business",
+    "da": 77,
+    "dr": 77,
+    "traffic": "60K",
+    "linkType": "DoFollow",
+    "price": 360
+  },
+  {
+    "id": 57,
+    "website": "ultraupdates.com",
+    "niche": "Technology",
+    "da": 76,
+    "dr": 69,
+    "traffic": "1.6K",
+    "linkType": "DoFollow",
+    "price": 120
+  },
+  {
+    "id": 58,
+    "website": "newschannelnebraska.com",
+    "niche": "News",
+    "da": 77,
+    "dr": 76,
+    "traffic": "12K",
+    "linkType": "DoFollow",
+    "price": 60
+  },
+  {
+    "id": 59,
+    "website": "thehansindia.com",
+    "niche": "News",
+    "da": 76,
+    "dr": 77,
+    "traffic": "323K",
+    "linkType": "DoFollow",
+    "price": 60
+  },
+  {
+    "id": 60,
+    "website": "spacecoastdaily.com",
+    "niche": "News",
+    "da": 73,
+    "dr": 72,
+    "traffic": "11K",
+    "linkType": "DoFollow",
+    "price": 110
+  }
+]
